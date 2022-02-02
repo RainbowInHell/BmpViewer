@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\123\КурсоваяBMPFinal\Debug\КурсоваяBMPFinal.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls>
+    <SatelliteDll>
+      <FullPath>D:\123\КурсоваяBMPFinal\КурсоваяBMPFinal\Debug\be-BY\КурсоваяBMPFinal.resources.dll</FullPath>
+    </SatelliteDll>
+    <SatelliteDll>
+      <FullPath>D:\123\КурсоваяBMPFinal\КурсоваяBMPFinal\Debug\en-US\КурсоваяBMPFinal.resources.dll</FullPath>
+    </SatelliteDll>
+    <SatelliteDll>
+      <FullPath>D:\123\КурсоваяBMPFinal\КурсоваяBMPFinal\Debug\en\КурсоваяBMPFinal.resources.dll</FullPath>
+    </SatelliteDll>
+  </SatelliteDlls>
+  <NonRecipeFileRefs />
+</Project>

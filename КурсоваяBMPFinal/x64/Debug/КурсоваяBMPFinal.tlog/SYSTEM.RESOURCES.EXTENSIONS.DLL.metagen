@@ -1,0 +1,37 @@
+  FxResources.System.Resources.Extensions.SR.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly System.Resources.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=SHA1, flags=PublicKey
+Assembly netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=None, flags=None
+Assembly System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=None, flags=None
+Class System.Resources.Extensions.PreserializedResourceWriter: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Resources.IResourceWriter
+    System.IDisposable
+  Methods:
+    AddResource(String, String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    AddResource(String, Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    AddResource(String, Stream, Boolean(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    AddResource(String, Byte[]): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Close(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Generate(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    AddResource(String, String, String): PrivateScope, Public, HideBySig
+    AddTypeConverterResource(String, Byte[], String): PrivateScope, Public, HideBySig
+    AddBinaryFormattedResource(String, Byte[], String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    AddActivatorResource(String, Stream, String, Boolean(Optional, HasDefault)): PrivateScope, Public, HideBySig
+Class System.Resources.Extensions.DeserializingResourceReader: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Resources.IResourceReader
+    System.Collections.IEnumerable
+    System.IDisposable
+  Methods:
+    Close(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetEnumerator(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask

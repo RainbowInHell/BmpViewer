@@ -1,0 +1,62 @@
+  КурсоваяBMPFinal.Admin.resources - Embedded, ContainedInManifestFile, 
+  КурсоваяBMPFinal.Authorizati.resources - Embedded, ContainedInManifestFile, 
+  КурсоваяBMPFinal.BMP.resources - Embedded, ContainedInManifestFile, 
+  КурсоваяBMPFinal.MyString.resources - Embedded, ContainedInManifestFile, 
+  КурсоваяBMPFinal.Registr.resources - Embedded, ContainedInManifestFile, 
+  КурсоваяBMPFinal.Spravka.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly КурсоваяBMPFinal, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Resources.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=None, flags=None
+Class КурсоваяBMPFinal.Admin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Resources.ResourceManager rm : Public
+  Methods:
+    UpdateFormColor(ColorDialog): PrivateScope, Public, HideBySig
+Class КурсоваяBMPFinal.BMP: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Resources.ResourceManager rm : Public
+  Methods:
+    UpdateFormColor(ColorDialog): PrivateScope, Public, HideBySig
+Class КурсоваяBMPFinal.Registr: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Resources.ResourceManager rm : Public
+  Methods:
+    UpdateFormColor(ColorDialog): PrivateScope, Public, HideBySig
+Class КурсоваяBMPFinal.ChangeLanguage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    UpdateConfig(String, String): PrivateScope, Public, HideBySig
+Class КурсоваяBMPFinal.Authorizati: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.ColorDialog MyDialog : Public
+    КурсоваяBMPFinal.ChangeLanguage changeLng : Public
+    System.Resources.ResourceManager rm : Public
+Class КурсоваяBMPFinal.Spravka: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
